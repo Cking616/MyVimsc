@@ -24,6 +24,9 @@ Plugin 'xolox/vim-lua-ftplugin'
 Plugin 'vim-misc'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'Shougo/neocomplete.vim'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'isnowfy/python-vim-instant-markdown'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required   
