@@ -1,8 +1,9 @@
 set nocompatible
+filetype off
 
 "Bundle 配置
-set rtp+=~/.vim/bundle/vundle
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 Bundle 'gmarik/vundle'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'taglist.vim'
@@ -14,13 +15,13 @@ Bundle 'auto-pairs'
 Bundle 'tpope/vim-commentary'
 Bundle 'lua.vim'
 Bundle 'vim-misc'
-Bundle 'rust-lang/rust.vim'
-Bundle 'racer-rust/vim-racer'
-Bundle 'jeaye/color_coded'
-Bundle	'Shougo/neocomplete.vim'
 Bundle 'godlygeek/tabular'
 Bundle 'plasticboy/vim-markdown'
 Bundle 'isnowfy/python-vim-instant-markdown'
+Bundle 'Valloric/YouCompleteMe'
+
+call vundle#end()
+filetype plugin indent on
 
 "基本配置
 set history=1000
